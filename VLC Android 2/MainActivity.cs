@@ -35,7 +35,7 @@ namespace VLC_Android_2
             videoView.MediaPlayer = mediaPlayer;
 
             // Set up the media (replace with your online video URL)
-            var media = new Media(libVLC, "http://vtpi.link:8080/shozee/shozeepw/20002", FromType.FromLocation);
+            var media = new Media(libVLC, "", FromType.FromLocation);
 
             // Assign the media to the MediaPlayer
             mediaPlayer.Media = media;
